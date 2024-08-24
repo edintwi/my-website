@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
+import Image from "next/image";
+
 import "./globals.css";
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "600", "700"] });
@@ -15,20 +17,46 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={poppins.className}>
-      <body className="px-20 py-10">
-        <nav className="">
-          <ul className="flex justify-end row-auto gap-10">
-            <li>
-              <a href="">Home</a>
-            </li>
-            <li>
-              <a href="">Sobre</a>
-            </li>
-            <li>
-              <a href="">Contato</a>
-            </li>
-          </ul>
+    <html lang="pt-br" className={poppins.className}>
+      <body className="px-20 py-10 items-center">
+        <nav className="items-center">
+          <div className="flex flex-row justify-between">
+            <div className="gap-2 flex flex-row">
+              <a href="https://github.com/edintwi" target="_blank">
+                <Image
+                  src="/assets/github.svg"
+                  width={30}
+                  height={30}
+                  alt={"Github"}
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/edson-brandon/"
+                target="_blank"
+              >
+                <Image
+                  src="/assets/linkedin.svg"
+                  width={30}
+                  height={30}
+                  alt={"Github"}
+                />
+              </a>
+            </div>
+            <ul className="flex justify-end flex-row gap-10">
+              <li>
+                <a href="">Home</a>
+              </li>
+              <li>
+                <a href="">Tecnologias</a>
+              </li>
+              <li>
+                <a href="">Sobre</a>
+              </li>
+              <li>
+                <a href="">Contato</a>
+              </li>
+            </ul>
+          </div>
         </nav>
         {children}
       </body>
