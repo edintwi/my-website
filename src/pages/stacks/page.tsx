@@ -18,12 +18,11 @@ export default function Stacks() {
     <div className="flex flex-col gap-20 h-screen w-max-screen overflow-hidden">
       <div className="flex flex-col items-center justify-evenly gap-20">
         <p className="flex flex-col text-center gap-5 ">
-          <span className="font-semibold text-3xl xsm:text-sm">
-            {" "}
+          <span className="font-semibold text-3xl xsm:text-sm lg:text-3xl">
             Minhas Stacks
           </span>
 
-          <span className="font-thin  xsm:text-sm">
+          <span className="font-thin  xsm:text-sm lg:text-2xl">
             Tecnologias que utilizo no meu dia a dia como desenvolvedor
           </span>
         </p>

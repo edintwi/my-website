@@ -35,7 +35,7 @@ export default function Navbar() {
           />
         </a>
       </div>
-      <ul className="flex justify-end items-center gap-10 font-bold text-sm xsm:gap-5">
+      <ul className="flex justify-end items-center gap-10 font-bold text-sm xsm:gap-5 lg:text-lg">
         <li>
           <a href="">Home</a>
         </li>
