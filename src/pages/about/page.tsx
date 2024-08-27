@@ -3,7 +3,7 @@ import { Formations } from "@/components/expCard/formation";
 import { jobs } from "@/components/expCard/jobs";
 export default function About() {
   return (
-    <section className="px-30">
+    <section className="px-30" id="about">
       <p className="text-4xl font-bold py-10">Sobre mim</p>
       <p className="font-thin text-justify">
         <i className="font-semibold">Um jovem apaixonado por tecnologia,</i>{" "}

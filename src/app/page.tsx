@@ -1,5 +1,6 @@
 "use client";
 import About from "@/pages/about/page";
+import Contact from "@/pages/contact/page";
 import Stacks from "@/pages/stacks/page";
 import Welcome from "@/pages/welcome/page";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <Welcome />
       <Stacks />
       <About />
+      <Contact />
     </main>
   );
 }
