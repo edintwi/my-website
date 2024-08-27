@@ -8,15 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      animation: {
-        'infinite-scroll': 'infinite-scroll 25s linear infinite',
+      keyframes: {
+         "infinite-scroll": {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(calc(-50% - 30px))" },
+        },
+         "infinite-scroll-reverse": {
+      "0%": { transform: "translateX(calc(-50% - 30px))" },
+      "100%": { transform: "translateX(0)" },
+    },
       },
-       keyframes: {
-        'infinite-scroll': {
-          from: { transform: 'translateX(0)' },
-          to: { transform: 'translateX(-100%)' },
-        }
-      },   
+      animation: {
+        "infinite-scroll": "infinite-scroll 20s linear infinite",
+        "infinite-scroll-reverse": "infinite-scroll-reverse 20s linear infinite",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
