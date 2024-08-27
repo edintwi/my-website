@@ -1,9 +1,9 @@
 import Image from "next/image";
 export default function Footer() {
   return (
-    <footer className="flex flex-col px-20 bottom-0 self-end">
+    <footer className="flex flex-col px-5 bottom-0 self-end">
       <div className="flex flex-row justify-end items-end gap-14 py-5">
-        <a className="font-thin">edsonbrandon8@gmail.com</a>
+        <a className="font-thin xsm:text-sm">edsonbrandon8@gmail.com</a>
         <div className="flex items-center gap-2">
           <a href="https://github.com/edintwi" target="_blank">
             <Image
@@ -25,8 +25,8 @@ export default function Footer() {
       </div>
 
       <hr className="h-0.5" />
-      <div className="flex flex-row justify-between py-10">
-        <ul className="flex flex-row gap-10 font-thin">
+      <div className="flex flex-row justify-between py-10 flex-wrap xsm:justify-center">
+        <ul className="flex flex-row gap-10 font-thin xsm: text-sm">
           <li>
             <a href="">Home</a>
           </li>
@@ -37,9 +37,9 @@ export default function Footer() {
             <a href="">Contato</a>
           </li>
         </ul>
-        <p className="font-thin">
+        <p className="flex flex-wrap font-thin xsm:text-sm xsm:justify-center xsm:py-10">
           Projetado e desenvolvido por{" "}
-          <span className="font-semibold bg-gradient-to-r from-cyan-300 to-emerald-500 bg-clip-text text-transparent">
+          <span className="font-semibold bg-gradient-to-r from-cyan-300 to-emerald-500 bg-clip-text text-transparent xsm:text-sm">
             Edson Brandon
           </span>
         </p>

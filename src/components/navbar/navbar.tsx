@@ -18,7 +18,7 @@ export default function Navbar() {
   }, []);
   return (
     <nav
-      className={`flex justify-between items-center fixed top-0 left-0 right-0 px-20 py-10 w-screen z-50 transition-colors duration-300 ${
+      className={`flex justify-between items-center fixed top-0 left-0 right-0 px-20 py-10 w-screen z-50 xsm:px-10 transition-colors duration-300 ${
         scrolled ? "bg-black/80 backdrop-blur-md" : "bg-transparent"
       }`}
     >
@@ -35,7 +35,7 @@ export default function Navbar() {
           />
         </a>
       </div>
-      <ul className="flex justify-end items-center gap-10 font-bold text-sm">
+      <ul className="flex justify-end items-center gap-10 font-bold text-sm xsm:gap-5">
         <li>
           <a href="">Home</a>
         </li>
