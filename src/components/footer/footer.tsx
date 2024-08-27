@@ -3,7 +3,7 @@ export default function Footer() {
   return (
     <footer className="flex flex-col px-20 bottom-0 self-end">
       <div className="flex flex-row justify-end items-end gap-14 py-5">
-        <a>edsonbrandon8@gmail.com</a>
+        <a className="font-thin">edsonbrandon8@gmail.com</a>
         <div className="flex items-center gap-2">
           <a href="https://github.com/edintwi" target="_blank">
             <Image
@@ -37,9 +37,9 @@ export default function Footer() {
             <a href="">Contato</a>
           </li>
         </ul>
-        <p>
+        <p className="font-thin">
           Projetado e desenvolvido por{" "}
-          <span className="bg-gradient-to-r from-cyan-300 to-emerald-500 bg-clip-text text-transparent">
+          <span className="font-semibold bg-gradient-to-r from-cyan-300 to-emerald-500 bg-clip-text text-transparent">
             Edson Brandon
           </span>
         </p>

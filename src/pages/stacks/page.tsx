@@ -15,10 +15,14 @@ export default function Stacks() {
   return (
     <div className="flex flex-col gap-20 h-screen w-max-screen">
       <div className="flex flex-col items-center justify-evenly gap-20">
-        <p className="text-center font-semibold text-3xl">Minhas Stacks</p>
-        <p className="text-center font-thin">
-          Tecnologias que utilizo no meu dia a dia como desenvolvedor
+        <p className="flex flex-col text-center gap-5 ">
+          <span className="font-semibold text-3xl"> Minhas Stacks</span>
+
+          <span className="font-thin font-sm">
+            Tecnologias que utilizo no meu dia a dia como desenvolvedor
+          </span>
         </p>
+        <p className="text-center font-thin"></p>
         <div className="grid grid-cols-5 grid-rows-2 gap-20 self-center">
           {[...icons].map((item, idx) => (
             <div>
