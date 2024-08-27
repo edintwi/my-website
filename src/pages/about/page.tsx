@@ -23,6 +23,7 @@ export default function About() {
         <p className="text-4xl font-bold py-10">Experiência</p>
         {jobs.map((item, key) => (
           <ExpCard
+            key={key}
             title={item.title}
             institution={item.institution}
             description={item.description}
@@ -34,6 +35,7 @@ export default function About() {
         <p className="text-4xl font-bold py-10">Formação</p>
         {Formations.map((item, key) => (
           <ExpCard
+            key={key}
             title={item.title}
             institution={item.institution}
             time={item.time}
