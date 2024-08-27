@@ -17,6 +17,14 @@ const config: Config = {
     },
     extend: {
       keyframes: {
+        "slide-down": {
+                    "0%": {
+                        transform: "translate3d(0, 0, 0)",
+                    },
+                    "100%": {
+                        transform: "translate3d(0, 100%, 0)",
+                    },
+                },
          "infinite-scroll": {
           "0%": { transform: "translateX(0)" },
           "100%": { transform: "translateX(calc(-50% - 30px))" },
@@ -27,6 +35,7 @@ const config: Config = {
     },
       },
       animation: {
+        "slide-down": "slide-down",
         "infinite-scroll": "infinite-scroll 20s linear infinite",
         "infinite-scroll-reverse": "infinite-scroll-reverse 20s linear infinite",
       },

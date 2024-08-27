@@ -41,7 +41,7 @@ export default function Footer() {
         </ul>
         <p className="flex flex-col font-thin xsm:text-sm xsm:justify-center xsm:py-10 sm:py-10 lg:text-lg xl:flex-row">
           Projetado e desenvolvido por{" "}
-          <span className="font-semibold bg-gradient-to-r from-cyan-300 to-emerald-500 bg-clip-text text-transparent xsm:text-sm sm:text-center lg:text-lg xl:pl-2">
+          <span className="font-semibold bg-gradient-to-r from-cyan-300 to-emerald-500 bg-clip-text text-transparent xsm:text-sm sm:text-center lg:text-lg xl:pl-2 xsm:text-center">
             Edson Brandon
           </span>
         </p>

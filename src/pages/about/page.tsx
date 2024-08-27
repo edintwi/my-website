@@ -1,7 +1,10 @@
+import ExpCard from "@/components/expCard/expCard";
+import { Formations } from "@/components/expCard/formation";
+import { jobs } from "@/components/expCard/jobs";
 export default function About() {
   return (
-    <section>
-      <h1 className="text-4xl font-bold py-10">Sobre mim</h1>
+    <section className="px-30">
+      <p className="text-4xl font-bold py-10">Sobre mim</p>
       <p className="font-thin text-justify">
         <i className="font-semibold">Um jovem apaixonado por tecnologia,</i>{" "}
         <br /> com o inicio da minha trajetória educacional no ensino médio
@@ -16,6 +19,27 @@ export default function About() {
           Sempre estou em busca de aprimoramento e aprendizado.
         </i>
       </p>
+      <div>
+        <p className="text-4xl font-bold py-10">Experiência</p>
+        {jobs.map((item, key) => (
+          <ExpCard
+            title={item.title}
+            institution={item.institution}
+            description={item.description}
+            time={item.time}
+          />
+        ))}
+      </div>
+      <div>
+        <p className="text-4xl font-bold py-10">Formação</p>
+        {Formations.map((item, key) => (
+          <ExpCard
+            title={item.title}
+            institution={item.institution}
+            time={item.time}
+          />
+        ))}
+      </div>
     </section>
   );
 }

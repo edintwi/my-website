@@ -1,4 +1,5 @@
 "use client";
+import About from "@/pages/about/page";
 import Stacks from "@/pages/stacks/page";
 import Welcome from "@/pages/welcome/page";
 
@@ -7,6 +8,7 @@ export default function Home() {
     <main className="flex flex-col">
       <Welcome />
       <Stacks />
+      <About />
     </main>
   );
 }
