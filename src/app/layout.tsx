@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 
+import Footer from "@/components/footer/footer";
 import Navbar from "@/components/navbar/navbar";
 import "./globals.css";
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className="px-20 py-10">
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
