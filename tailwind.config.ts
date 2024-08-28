@@ -16,6 +16,14 @@ const config: Config = {
       "2xl": "1536px",
     },
     extend: {
+      colors: {
+        "bg-dark": "#191919",
+        "soft-gray": "#666666",
+        "light-text": "#A7A7A7",
+        "heading": "#42446E",
+        "heading-dark": "#CCCCCC",
+        "p-dark": "#A7A7A7",
+    },
       keyframes: {
         "slide-down": {
                     "0%": {

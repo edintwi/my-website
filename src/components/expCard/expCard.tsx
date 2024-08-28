@@ -14,11 +14,11 @@ export default function ExpCard(job: Job) {
   return (
     <div className="flex flex-col border-b-white w-full gap-5">
       <div className="flex flex-row justify-between">
-        <p className="text-xl">{job.title}</p>
+        <p className="text-xl text-soft-gray dark:text-p-dark">{job.title}</p>
 
         {job.description ? (
           <MdOutlineKeyboardArrowDown
-            color="white"
+            color="#666666"
             size={30}
             onClick={toggleDesc}
             className={`cursor-pointer transform transition-transform ${
@@ -29,13 +29,17 @@ export default function ExpCard(job: Job) {
       </div>
       <div className="flex flex-row justify-between">
         <div className="flex flex-row gap-2">
-          <BiBuildingHouse />
-          <p className="font-semibold text-sm">{job.institution}</p>
+          <BiBuildingHouse color="#666666" />
+          <p className="font-semibold text-sm text-soft-gray dark:text-p-dark">
+            {job.institution}
+          </p>
         </div>
 
         <div className="flex flex-row gap-2">
           <CiClock1 />
-          <p className="font-semibold text-sm xsm:text-xsm">{job.time}</p>
+          <p className="font-semibold text-sm xsm:text-xsm text-soft-gray dark:text-p-dark">
+            {job.time}
+          </p>
         </div>
       </div>
       <div
@@ -43,10 +47,12 @@ export default function ExpCard(job: Job) {
           showDesc ? "max-h-96" : "max-h-0"
         }`}
       >
-        <p className="text-justify font-thin">{job.description}</p>
+        <p className="text-justify font-thin text-soft-gray dark:text-p-dark">
+          {job.description}
+        </p>
       </div>
 
-      <hr className="mb-10 bg-slate-300" />
+      <hr className="mb-10 bg-soft-gray" />
     </div>
   );
 }

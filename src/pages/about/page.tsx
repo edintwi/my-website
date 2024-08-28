@@ -4,8 +4,10 @@ import { jobs } from "@/components/expCard/jobs";
 export default function About() {
   return (
     <section className="px-30" id="about">
-      <p className="text-4xl font-bold py-10">Sobre mim</p>
-      <p className="font-thin text-justify">
+      <p className="text-4xl font-bold py-10 text-heading dark:text-heading-dark">
+        Sobre mim
+      </p>
+      <p className="font-normal text-justify  text-soft-gray dark:text-p-dark">
         <i className="font-semibold">Um jovem apaixonado por tecnologia,</i>{" "}
         <br /> com o inicio da minha trajetória educacional no ensino médio
         técnico em informática logo me encantei com o desenvolvimento, em
@@ -20,7 +22,9 @@ export default function About() {
         </i>
       </p>
       <div>
-        <p className="text-4xl font-bold py-10">Experiência</p>
+        <p className="text-4xl font-bold py-10  text-heading dark:text-heading-dark">
+          Experiência
+        </p>
         {jobs.map((item, key) => (
           <ExpCard
             key={key}
@@ -32,7 +36,9 @@ export default function About() {
         ))}
       </div>
       <div>
-        <p className="text-4xl font-bold py-10">Formação</p>
+        <p className="text-4xl font-bold py-10  text-heading dark:text-heading-dark">
+          Formação
+        </p>
         {Formations.map((item, key) => (
           <ExpCard
             key={key}

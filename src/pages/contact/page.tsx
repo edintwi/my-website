@@ -2,9 +2,11 @@ import Image from "next/image";
 export default function Contact() {
   return (
     <section id="contact">
-      <p className="text-4xl font-bold py-10">Contato</p>
+      <p className="text-4xl font-bold py-10 text-heading dark:text-heading-dark">
+        Contato
+      </p>
       <div>
-        <p>
+        <p className="text-soft-gray dark:text-p-dark">
           Para mais informaçoes entre em contato pelo e-mail:
           <span className="font-semibold bg-gradient-to-r from-cyan-300 to-emerald-500 bg-clip-text text-transparent xsm:text-sm sm:text-center lg:text-lg xl:pl-2 xsm:text-center">
             edsonbrandon8@gmail.com

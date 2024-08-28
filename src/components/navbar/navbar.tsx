@@ -22,7 +22,9 @@ export default function Navbar() {
   return (
     <nav
       className={`flex justify-between items-center h-10 fixed top-0 left-0 right-0 py-10 w-screen z-50 xsm:px-10 xl:px-40 transition-colors duration-300 ${
-        scrolled ? "bg-black/80 backdrop-blur-md" : "bg-transparent"
+        scrolled
+          ? "dark:bg-black/80 backdrop-blur-md shadow-md"
+          : "bg-transparent"
       }`}
     >
       <div className="flex items-center gap-2">
@@ -38,7 +40,7 @@ export default function Navbar() {
           />
         </a>
       </div>
-      <ul className="flex justify-end items-center gap-10 font-bold text-sm xsm:gap-5 lg:text-lg">
+      <ul className="flex justify-end items-center gap-10 font-bold text-sm xsm:gap-5 lg:text-lg text-soft-gray dark:text-light-text">
         <li>
           <Link
             to="home"

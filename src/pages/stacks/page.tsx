@@ -21,11 +21,11 @@ export default function Stacks() {
     >
       <div className="flex flex-col items-center justify-evenly gap-20 pb-20">
         <p className="flex flex-col text-center gap-5 ">
-          <span className="font-semibold text-3xl xsm:text-sm lg:text-3xl">
+          <span className="font-semibold text-3xl xsm:text-sm lg:text-3xl text-heading  dark:text-heading-dark">
             Minhas Stacks
           </span>
 
-          <span className="font-thin  xsm:text-sm lg:text-2xl">
+          <span className="font-thin  xsm:text-sm lg:text-2xl text-heading dark:text-heading-dark">
             Tecnologias que utilizo no meu dia a dia como desenvolvedor
           </span>
         </p>
