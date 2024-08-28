@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
+import ThemeSwitcher from "../themeSwitcher/themeSwitcher";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -79,6 +80,9 @@ export default function Navbar() {
           >
             Contato
           </Link>
+        </li>
+        <li className="cursor-pointer">
+          <ThemeSwitcher />
         </li>
       </ul>
     </nav>
