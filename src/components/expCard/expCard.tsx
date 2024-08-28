@@ -47,7 +47,7 @@ export default function ExpCard(job: Job) {
           showDesc ? "max-h-96" : "max-h-0"
         }`}
       >
-        <p className="text-justify font-thin text-soft-gray dark:text-p-dark">
+        <p className="text-justify font-normal text-soft-gray dark:text-p-dark">
           {job.description}
         </p>
       </div>
