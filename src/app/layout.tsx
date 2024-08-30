@@ -12,8 +12,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Edson Brandon - Em desenvolvimento",
-  description: "Em desenvolvimento",
+  title: "Edson Brandon Dev",
+  description: "Desenvolvedor Front-end",
 };
 
 export const viewport: Viewport = {
