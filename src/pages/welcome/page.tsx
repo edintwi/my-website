@@ -6,7 +6,7 @@ export default function Welcome() {
     <main className="flex" id="home">
       <div className="flex flex-row items-center justify-between w-screen h-screen xsm:justify-around  xsm:flex-wrap xl:flex-nowrap xl:items-center xl:justify-center">
         <div className="w-full xsm:justify-center xl: justify-start">
-          <p className="font-bold text-6xl xsm:text-base xsm:text-center md:text-lg lg:text-4xl xl:text-5xl xl:text-left text-heading dark:text-light-text">
+          <p className="font-bold text-6xl xsm:text-xl xsm:text-center md:text-lg lg:text-4xl xl:text-5xl xl:text-left text-heading dark:text-light-text">
             Olá 👋, <br /> Meu nome é <br />
             <span className="bg-gradient-to-r from-cyan-300 to-emerald-500 bg-clip-text text-transparent lg:text-4xl">
               Edson Brandon

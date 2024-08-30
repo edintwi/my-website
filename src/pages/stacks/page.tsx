@@ -1,18 +1,25 @@
 export default function Stacks() {
   const icons = [
-    "/assets/html.png",
-    "/assets/css.png",
-    "/assets/js.png",
-    "/assets/ts.png",
-    "/assets/react.png",
-    "/assets/flutter.png",
-    "/assets/node.png",
-    "/assets/git.png",
-    "/assets/android.png",
-    "/assets/swift.png",
+    "/assets/html.svg",
+    "/assets/css.svg",
+    "/assets/js.svg",
+    "/assets/ts.svg",
+    "/assets/react.svg",
+    "/assets/flutter.svg",
+    "/assets/node.svg",
+    "/assets/git.svg",
+    "/assets/android.svg",
+    "/assets/swift.svg",
+    "/assets/dart.svg",
+    "/assets/expo.svg",
+    "/assets/github.svg",
+    "/assets/react-query.svg",
+    "/assets/sequelize.svg",
+    "/assets/sql.svg",
+    "/assets/tailwind.svg",
+    "/assets/vscode.svg",
+    "/assets/next.svg",
   ];
-
-  const reverseIcons = icons.reverse();
 
   return (
     <div
@@ -25,7 +32,7 @@ export default function Stacks() {
             Minhas Stacks
           </span>
 
-          <span className="font-thin  xsm:text-sm lg:text-2xl text-heading dark:text-heading-dark">
+          <span className="font-light  xsm:text-sm lg:text-2xl text-heading dark:text-heading-dark">
             Tecnologias que utilizo no meu dia a dia como desenvolvedor
           </span>
         </p>
@@ -36,7 +43,7 @@ export default function Stacks() {
           ,
         </div>
         <div className="flex flex-row gap-20 animate-infinite-scroll-reverse">
-          {[...reverseIcons, ...reverseIcons].map((item, idx) => (
+          {[...icons, ...icons].map((item, idx) => (
             <img className="w-12 h-12" src={item} key={idx} />
           ))}
         </div>

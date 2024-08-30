@@ -7,9 +7,9 @@ export default function ThemeSwitcher() {
   return (
     <div className="items-center justify-center">
       {theme === "dark" ? (
-        <CiLight size={20} onClick={() => setTheme("light")} />
+        <CiDark size={20} onClick={() => setTheme("light")} />
       ) : (
-        <CiDark size={20} onClick={() => setTheme("dark")} />
+        <CiLight size={20} onClick={() => setTheme("dark")} />
       )}
     </div>
   );

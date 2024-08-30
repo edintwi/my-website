@@ -27,7 +27,7 @@ export default function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-2 xsm:justify-center xsm:hidden sm:flex md:flex lg:flex xl:flex 2xl:flex">
         <a href="https://github.com/edintwi" target="_blank">
           <Image src="/assets/github.svg" width={30} height={30} alt="Github" />
         </a>
