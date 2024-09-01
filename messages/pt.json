@@ -20,19 +20,23 @@
   },
   "About": {
     "title": "Sobre mim",
-    "text": "Um jovem apaixonado por tecnologia,\ncom o inicio da minha trajetória educacional no ensino médio técnico em informática logo me encantei com o desenvolvimento, em seguida ingressei no curso de Sistemas de Informação pela Estácio de Sá, onde descobri e me especializei em criar soluções mobile utilizando React Native e TypeScript.\nHoje atuo em projetos freelancers e pessoais utilizando tecnologias como TypeScript, ReactJs., React Native, NodeJS, MySQL, Javascript.\n\nSempre estou em busca de aprimoramento e aprendizado."
-  },
-  "Experience": {
-    "title": "Experiência"
+    "text": "Um jovem apaixonado por tecnologia,\ncom o inicio da minha trajetória educacional no ensino médio técnico em informática logo me encantei com o desenvolvimento, em seguida ingressei no curso de Sistemas de Informação pela Estácio de Sá, onde descobri e me especializei em criar soluções mobile utilizando React Native e TypeScript.\nHoje atuo em projetos freelancers e pessoais utilizando tecnologias como TypeScript, ReactJs., React Native, NodeJS, MySQL, Javascript.\n\nSempre estou em busca de aprimoramento e aprendizado.",
+    "experienceTitle": "Experiência",
+    "formationTitle": "Formação"
   },
   "Contact": {
     "title": "Contato",
     "text": "Para mais informaçoes entre em contato pelo e-mail:",
+    "textSecond": "ou se preferir:",
     "mail": "edsonbrandon8@gmail.com"
   },
   "Footer": {
     "text": "Projetado e desenvolvidor por",
     "name": "Edson Brandon",
-    "mail": "edsonbrandon8@gmail.com"
+    "mail": "edsonbrandon8@gmail.com",
+    "home": "Home",
+    "stacks": "Stacks",
+    "about": "Sobre",
+    "contact": "Contato"
   }
 }

@@ -20,19 +20,24 @@
   },
   "About": {
     "title": "About me",
-    "text": "A young man passionate about technology,\nI began my educational journey in a technical high school in computer science and soon fell in love with development. After that, I enrolled in the Information Systems course at Estácio de Sá, where I discovered and specialized in creating mobile solutions using React Native and TypeScript.\nToday, I work on freelance and personal projects using technologies such as TypeScript, ReactJs, React Native, NodeJS, MySQL, and JavaScript.\n\nI am always seeking improvement and learning."
-  },
-  "Experience": {
-    "title": "Experience"
+    "text": "A young man passionate about technology,\nI began my educational journey in a technical high school in computer science and soon fell in love with development. After that, I enrolled in the Information Systems course at Estácio de Sá, where I discovered and specialized in creating mobile solutions using React Native and TypeScript.\nToday, I work on freelance and personal projects using technologies such as TypeScript, ReactJs, React Native, NodeJS, MySQL, and JavaScript.\n\nI am always seeking improvement and learning.",
+    "experienceTitle": "Experience",
+    "formationTitle": "Formation"
+
   },
   "Contact": {
     "title": "Contact",
     "text": "For more information, please contact me via email:",
+    "textSecond": "or if you prefer:",
     "mail": "edsonbrandon8@gmail.com"
   },
   "Footer": {
     "text": "Designed and developed by",
     "name": "Edson Brandon",
-    "mail": "edsonbrandon8@gmail.com"
+    "mail": "edsonbrandon8@gmail.com",
+    "home": "Home",
+    "stacks": "Stacks",
+    "about": "About",
+    "contact": "Contact"
   }
 }

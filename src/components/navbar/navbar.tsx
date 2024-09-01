@@ -1,4 +1,5 @@
 "use client";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
@@ -18,6 +19,8 @@ export default function Navbar() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  const t = useTranslations("Navbar");
 
   return (
     <nav
@@ -49,7 +52,7 @@ export default function Navbar() {
             className="cursor-pointer"
             offset={-40}
           >
-            Home
+            {t("home")}
           </Link>
         </li>
         <Link
@@ -59,7 +62,7 @@ export default function Navbar() {
           className="cursor-pointer"
           offset={-80}
         >
-          Stacks
+          {t("stacks")}
         </Link>
         <li>
           <Link
@@ -69,7 +72,7 @@ export default function Navbar() {
             offset={-40}
             className="cursor-pointer"
           >
-            Sobre
+            {t("about")}
           </Link>
         </li>
         <li>
@@ -80,7 +83,7 @@ export default function Navbar() {
             offset={-40}
             className="cursor-pointer"
           >
-            Contato
+            {t("contact")}
           </Link>
         </li>
         <li className="cursor-pointer">
