@@ -1,4 +1,8 @@
 {
+  "Metadata": {
+    "title": "Edson Brandon Dev",
+    "description": "Desenvolvedor Front-end"
+  },
 "Navbar": {
     "home": "Home",
     "stacks": "Stacks",
@@ -23,6 +27,38 @@
     "text": "Um jovem apaixonado por tecnologia,\ncom o inicio da minha trajetória educacional no ensino médio técnico em informática logo me encantei com o desenvolvimento, em seguida ingressei no curso de Sistemas de Informação pela Estácio de Sá, onde descobri e me especializei em criar soluções mobile utilizando React Native e TypeScript.\nHoje atuo em projetos freelancers e pessoais utilizando tecnologias como TypeScript, ReactJs., React Native, NodeJS, MySQL, Javascript.\n\nSempre estou em busca de aprimoramento e aprendizado.",
     "experienceTitle": "Experiência",
     "formationTitle": "Formação"
+  },
+  "Jobs": {
+    "job1": {
+      "title": "Desenvolvedor mobile freelancer",
+      "institution": "Novo Horizonte Transportes",
+      "description": "Como desenvolvedor React Native, desenvolvi um aplicativo para gerenciamento de filas de motoristas. \nResponsabilidades: \n- Implementar todo o processo de cadastro, remoção e exclusão de motoristas, veículos e clientes.\n- Gerenciar a fila de motoristas, incluindo remoção de motoristas da fila, mudança de posição, solicitação de viagem pelo cliente, aceitação ou rejeição de viagem pelo administrador, utilizando estado global com React Context API.\n- Implementar requisições assíncronas utilizando Axios.\n- Integrar geolocalização no React Native.\n- Implementar tema global com Styled-components.\n- Gerenciar e validar formulários com React Hook Form e Zup.",
+      "time": "Set 2023 - Fev 2024"
+    },
+    "job2": {
+      "title": "Desenvolvedor fullstack freelancer",
+      "institution": "Martins Imóveis",
+      "description": "Como desenvolvedor full stack, desenvolvi um site eficiente e responsivo para exibir seus imóveis disponíveis (CRUD), com funcionalidades de filtragem como filtro por região, valor, etc. Também foi implementada toda a parte da gestão de imóveis pelo administrador (Criação, Remoção, Exclusão) e também a captação de clientes interessados, direcionando tanto como mensagem por e-mail ou diretamente pelo WhatsApp. Tecnologias utilizadas: HTML, CSS, JavaScript, JQuery, PHP, MySQL.",
+      "time": "Jul 2021 - Ago 2021"
+    },
+    "job3": {
+      "title": "Estagiário de suporte de informática",
+      "institution": "Curso Praticar",
+      "description": "Como estagiário de suporte de informática, prestava suporte aos funcionários e também fazia manutenções e modificações no site da empresa.",
+      "time": "Dez 2020 - Jul 2021"
+    }
+  },
+  "Formations": {
+    "formation1": {
+      "institution": "Universidade Estácio de Sá",
+      "title": "Bacharelado em Sistemas de Informação",
+      "time": "Fev 2019 - Jun 2024"
+    },
+    "formation2": {
+      "institution": "ETERJ - Escola Técnica do Rio de Janeiro",
+      "title": "Ensino Médio Técnico em Informática",
+      "time": "Jan 2016 - Dez 2018"
+    }
   },
   "Contact": {
     "title": "Contato",

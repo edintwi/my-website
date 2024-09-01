@@ -1,9 +1,14 @@
 import ExpCard from "@/components/expCard/expCard";
-import { Formations } from "@/components/expCard/formation";
-import { jobs } from "@/components/expCard/jobs";
 import { useTranslations } from "next-intl";
 export default function About() {
   const t = useTranslations("About");
+
+  const jobsT = useTranslations("Jobs");
+  const jobKeys = ["job1", "job2", "job3"] as const;
+
+  const formationsT = useTranslations("Formations");
+  const formationKeys = ["formation1", "formation2"] as const;
+
   return (
     <section className="px-30" id="about">
       <p className="text-4xl font-bold py-10 text-heading dark:text-heading-dark">
@@ -16,13 +21,13 @@ export default function About() {
         <p className="text-4xl font-bold py-10  text-heading dark:text-heading-dark">
           {t("experienceTitle")}
         </p>
-        {jobs.map((item, key) => (
+        {jobKeys.map((key) => (
           <ExpCard
             key={key}
-            title={item.title}
-            institution={item.institution}
-            description={item.description}
-            time={item.time}
+            title={jobsT(`${key}.title`)}
+            institution={jobsT(`${key}.institution`)}
+            description={jobsT(`${key}.description`)}
+            time={jobsT(`${key}.time`)}
           />
         ))}
       </div>
@@ -30,12 +35,12 @@ export default function About() {
         <p className="text-4xl font-bold py-10  text-heading dark:text-heading-dark">
           {t("formationTitle")}
         </p>
-        {Formations.map((item, key) => (
+        {formationKeys.map((key) => (
           <ExpCard
             key={key}
-            title={item.title}
-            institution={item.institution}
-            time={item.time}
+            title={formationsT(`${key}.title`)}
+            institution={formationsT(`${key}.institution`)}
+            time={formationsT(`${key}.time`)}
           />
         ))}
       </div>

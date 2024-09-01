@@ -1,4 +1,8 @@
 {
+   "Metadata": {
+    "title": "Edson Brandon Dev",
+    "description": "Front-end developer"
+  },
   "Navbar": {
     "home": "Home",
     "stacks": "Stacks",
@@ -23,7 +27,38 @@
     "text": "A young man passionate about technology,\nI began my educational journey in a technical high school in computer science and soon fell in love with development. After that, I enrolled in the Information Systems course at Estácio de Sá, where I discovered and specialized in creating mobile solutions using React Native and TypeScript.\nToday, I work on freelance and personal projects using technologies such as TypeScript, ReactJs, React Native, NodeJS, MySQL, and JavaScript.\n\nI am always seeking improvement and learning.",
     "experienceTitle": "Experience",
     "formationTitle": "Formation"
-
+  },
+   "Jobs": {
+    "job1": {
+      "title": "Mobile Developer Freelancer",
+      "institution": "Novo Horizonte Transportes",
+      "description": "As a React Native developer, I developed an app for managing driver queues. \nResponsibilities: \n- Implement the entire process of registering, removing, and deleting drivers, vehicles, and clients.\n- Manage the driver queue, including removing drivers from the queue, changing position, requesting trips by the client, and accepting or rejecting trips by the administrator, using global state with React Context API.\n- Implement asynchronous requests using Axios.\n- Integrate geolocation in React Native.\n- Implement global theme with Styled-components.\n- Manage and validate forms with React Hook Form and Zup.",
+      "time": "Sep 2023 - Feb 2024"
+    },
+    "job2": {
+      "title": "Fullstack Developer Freelancer",
+      "institution": "Martins Imóveis",
+      "description": "As a full stack developer, I developed an efficient and responsive website to display available properties (CRUD) with filtering functionalities such as filtering by region, price, etc. The entire property management part was also implemented by the administrator (Creation, Removal, Deletion), as well as the client acquisition part, directing messages either via email or directly via WhatsApp. Technologies used: HTML, CSS, JavaScript, JQuery, PHP, MySQL.",
+      "time": "Jul 2021 - Aug 2021"
+    },
+    "job3": {
+      "title": "IT Support Intern",
+      "institution": "Curso Praticar",
+      "description": "As an IT support intern, I provided support to employees and also performed maintenance and modifications on the company's website.",
+      "time": "Dec 2020 - Jul 2021"
+    }
+  },
+  "Formations": {
+    "formation1": {
+      "institution": "Estácio de Sá University",
+      "title": "Bachelor's Degree in Information Systems",
+      "time": "Feb 2019 - Jun 2024"
+    },
+    "formation2": {
+      "institution": "ETERJ - Technical School of Rio de Janeiro",
+      "title": "High School Technical Degree in Computer Science",
+      "time": "Jan 2016 - Dec 2018"
+    }
   },
   "Contact": {
     "title": "Contact",
