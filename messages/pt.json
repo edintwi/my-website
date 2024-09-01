@@ -1,6 +1,38 @@
 {
-  "HomePage": {
-    "title": "Hello world!, PT",
-    "about": "Go to the about page"
+"Navbar": {
+    "home": "Home",
+    "stacks": "Stacks",
+    "about": "Sobre",
+    "contact": "Contato"
+    },
+  "Welcome": {
+    "titleFirst": "Olá",
+    "titleSecond": "Meu nome é",
+    "titleThird": "Edson Brandon",
+    "titleFour": "e sou um",
+
+    "typeWriterFirst": "Desenvolvedor Front-end",
+    "typeWriterSecond": "Desenvolvedor Mobile"
+  },
+  "Stacks": {
+    "title": "Stacks",
+    "subTitle": "Tecnologias que utilizo no meu dia a dia como desenvolvedor"
+  },
+  "About": {
+    "title": "Sobre mim",
+    "text": "Um jovem apaixonado por tecnologia,\ncom o inicio da minha trajetória educacional no ensino médio técnico em informática logo me encantei com o desenvolvimento, em seguida ingressei no curso de Sistemas de Informação pela Estácio de Sá, onde descobri e me especializei em criar soluções mobile utilizando React Native e TypeScript.\nHoje atuo em projetos freelancers e pessoais utilizando tecnologias como TypeScript, ReactJs., React Native, NodeJS, MySQL, Javascript.\n\nSempre estou em busca de aprimoramento e aprendizado."
+  },
+  "Experience": {
+    "title": "Experiência"
+  },
+  "Contact": {
+    "title": "Contato",
+    "text": "Para mais informaçoes entre em contato pelo e-mail:",
+    "mail": "edsonbrandon8@gmail.com"
+  },
+  "Footer": {
+    "text": "Projetado e desenvolvidor por",
+    "name": "Edson Brandon",
+    "mail": "edsonbrandon8@gmail.com"
   }
 }
