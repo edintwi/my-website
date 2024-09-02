@@ -1,15 +1,23 @@
 import { Link } from "@/i18n/routing";
 import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 
 export default function LangSwitcher() {
-  const locale = usePathname();
+  const [locale, setLocale] = useState<string | null>(null);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    setLocale(pathname);
+  }, [pathname]);
+
+  if (!locale) return null;
 
   return (
-    <div>
+    <div className="items-center">
       {locale === "/pt" ? (
-        <Link href={"./en"}>pt</Link>
+        <Link href={"./en"}>🇧🇷</Link>
       ) : (
-        <Link href={"./pt"}>br</Link>
+        <Link href={"./pt"}>🇺🇸</Link>
       )}
     </div>
   );
