@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 import { BiBuildingHouse } from "react-icons/bi";
 import { CiClock1 } from "react-icons/ci";
