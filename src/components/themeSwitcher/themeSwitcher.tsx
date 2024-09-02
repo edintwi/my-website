@@ -5,7 +5,7 @@ import { CiDark, CiLight } from "react-icons/ci";
 export default function ThemeSwitcher() {
   const { setTheme, theme } = useTheme();
   return (
-    <div className="items-center justify-center">
+    <div>
       {theme === "dark" ? (
         <CiDark size={20} onClick={() => setTheme("light")} />
       ) : (

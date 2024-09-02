@@ -7,9 +7,9 @@ export default function LangSwitcher() {
   return (
     <div>
       {locale === "/pt" ? (
-        <Link href={"./en"}>🇧🇷</Link>
+        <Link href={"./en"}>pt</Link>
       ) : (
-        <Link href={"./pt"}>🇺🇸</Link>
+        <Link href={"./pt"}>br</Link>
       )}
     </div>
   );
