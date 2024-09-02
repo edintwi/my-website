@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
+import LangSwitcher from "../langSwitcher/langSwitcher";
 import ThemeSwitcher from "../themeSwitcher/themeSwitcher";
 
 export default function Navbar() {
@@ -43,7 +44,7 @@ export default function Navbar() {
           />
         </a>
       </div>
-      <ul className="flex justify-end items-center gap-10 font-bold text-sm xsm:gap-5 lg:text-lg text-soft-gray dark:text-light-text">
+      <ul className="flex justify-end items-center gap-10 font-bold text-sm  xsm:gap-5 lg:text-lg text-soft-gray dark:text-light-text">
         <li>
           <Link
             to="home"
@@ -86,8 +87,9 @@ export default function Navbar() {
             {t("contact")}
           </Link>
         </li>
-        <li className="cursor-pointer">
+        <li className="cursor-pointer flex flex-row items-center gap-2">
           <ThemeSwitcher />
+          <LangSwitcher />
         </li>
       </ul>
     </nav>
