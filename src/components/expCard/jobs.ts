@@ -1,6 +1,6 @@
 export interface Job {
-  title: string;
-  institution: string;
-  description?: string;
-  time: string;
-};
+	title: string;
+	institution: string;
+	description?: string;
+	time: string;
+}

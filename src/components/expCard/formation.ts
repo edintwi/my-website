@@ -1,6 +1,5 @@
 export interface Formation {
-    institution: string,
-    title: string,
-    time: string,
-};
-    
+	institution: string;
+	title: string;
+	time: string;
+}
